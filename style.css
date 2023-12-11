@@ -1,0 +1,41 @@
+/* Use a custom font for the body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Use a light blue background color for the header */
+header {
+  background-color: #add8e6;
+  padding: 20px;
+}
+
+/* Use a dark blue color for the navigation links */
+nav a {
+  color: #0000ff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Use a hover effect to change the link color to light blue */
+nav a:hover {
+  color: #add8e6;
+}
+
+/* Use a grid layout for the main content */
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+/* Use a light gray border for the sidebar */
+aside {
+  border: 1px solid #d3d3d3;
+}
+
+/* Use a dark gray color for the footer */
+footer {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+}
